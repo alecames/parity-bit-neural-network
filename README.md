@@ -1,5 +1,6 @@
 # Neural Network
 Created for COSC 3P71 Artificial Intelligence
+December 3rd, 2021
 
 Learns to predict the parity bit for a set of four bits.
 
