@@ -1,4 +1,4 @@
-# Neural Network
+# Parity Bit Neural Network
 Created for COSC 3P71 Artificial Intelligence
 December 3rd, 2021
 
