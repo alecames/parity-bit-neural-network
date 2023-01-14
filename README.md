@@ -1,10 +1,11 @@
 # Parity Bit Neural Network
-Created for COSC 3P71 Artificial Intelligence
+Created for COSC 3P71
 December 3rd, 2021
 
-Learns to predict the parity bit for a set of four bits.
+## Description
+This program is a basic neural network that was trained on a string of bits and their respective parity bit, with the goal of predicting the parity bit instead of calculating it.
 
-### Getting user parameters: 
+### How to Use 
 
 If you want to test the program a few times with the same values [ENTER] or [RETURN] will automatically fill in some example values. They are printed at the bottom of each training session, except for the training size, but that can be inferred from the 'success' tally. The values are:  hidden layer = 8, iterations = 10k, learning rate = 0.15, training size = 10. The split of values between training testing is set to 10/6, but it can be changed in the .py version with the variable `training_size` if desired 
 
