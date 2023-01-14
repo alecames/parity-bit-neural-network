@@ -5,9 +5,8 @@ December 3rd, 2021
 Learns to predict the parity bit for a set of four bits.
 
 ### Getting user parameters: 
-		
-The program will check and handle most user errors that I could imagine running into.
-Additionally, if you want to test the program a few times with the same values [ENTER] or [RETURN] will automatically fill in some example values. They are printed at the bottom of each training session, except for the training size, but that can be inferred from the 'success' tally. The values are:  hidden layer = 8, iterations = 10k, learning rate = 0.15, training size = 10. The split of values between training testing is set to 10/6, but it can be changed in the .py version with the variable `training_size` if desired 
+
+If you want to test the program a few times with the same values [ENTER] or [RETURN] will automatically fill in some example values. They are printed at the bottom of each training session, except for the training size, but that can be inferred from the 'success' tally. The values are:  hidden layer = 8, iterations = 10k, learning rate = 0.15, training size = 10. The split of values between training testing is set to 10/6, but it can be changed in the .py version with the variable `training_size` if desired 
 
 1. Enter the hidden layer count from 1 to 256 (capped at 256, large numbers slow it down quite a bit)
 2. Enter learning rate between 0.0 - 1.0 (recommended values are 0.1 to 0.8 but I allowed for 0 and 1 for more options)
